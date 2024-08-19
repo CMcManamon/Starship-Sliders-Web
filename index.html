@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" height=100% tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=720 height=1280 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Sliders3D.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Sliders3D.data.gz",
-        frameworkUrl: buildUrl + "/Sliders3D.framework.js.gz",
-        codeUrl: buildUrl + "/Sliders3D.wasm.gz",
+        dataUrl: buildUrl + "/Sliders3D.data",
+        frameworkUrl: buildUrl + "/Sliders3D.framework.js",
+        codeUrl: buildUrl + "/Sliders3D.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Leaf on the Wind Studio",
         productName: "Starship Sliders",
